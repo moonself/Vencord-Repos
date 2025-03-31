@@ -1,0 +1,66 @@
+/* Memberlist Hover Visual Refresh*/
+.container_c8ffbb, [class*="membersWrap_"] {
+        justify-content: unset;
+        min-width: unset;
+        width: 60px;
+        right: 0;
+}
+[class*="member_"] {
+    right: 3px;
+}
+.memberInner__5d473, .content__91a9d, .membersGroup_c8ffbb {
+    margin-left: 3px;
+}
+.memberInner__5d473 {
+    margin-left: -6px;
+}
+[class*="membersWrap_"] [class*="members_"] {
+        transition: transform var(--hover-animation-speed);
+}
+[class*='membersWrap_']:hover [class*="members_"] {
+        transform: translateX(-196px);
+}
+[class*="membersWrap_"] [class*="membersGroup_"]::after {
+        content:"";
+        width: 30px;
+        height: 3px;
+        border-radius: 50px;
+        background-color: #949ba4;
+        position: absolute;
+        left: -36px;
+        top: 24px;
+        margin-left: 2px;
+}
+[class*='membersWrap_']:hover [class*="membersGroup_"] {
+        transform: translateX(-3px);
+}
+[class*='membersWrap_'] [class*="membersGroup_"] {
+        cursor: default;
+        transform: translateX(45px);
+        transition: transform var(--hover-animation-speed);
+        overflow: visible;
+}
+.container__0f2e8 {
+        margin-left: 14px;
+}
+[class*="membersWrap_"] .container__0f2e8::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -36px;
+    top: 17px;
+    margin-left: -7px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -5 1034 1034"><path fill="%23949ba4" d="M326 226q-96 0 -199 56q-27 15 -36 45.5t5.5 57.5t45.5 31q28 3 58 -13q58 -31 105 -40q41 -7 85 2q26 6 82 25q13 5 40 16q46 19 72 27q44 13 84 13q94 0 198 -45q29 -12 41 -41t0 -57.5t-42 -35.5q-27 -6 -58 7q-61 26 -112 31q-43 5 -89 -6q-28 -6 -85 -26l-19 -8q-52 -18 -81 -26q-49 -13 -95 -13zM321 519q-95 -1 -196 53q-28 15 -37.5 45t5 57.5t45.5 31.5q28 3 58 -13q57 -30 104 -38q40 -6 83 3q26 5 82 25v0q12 4 39 15q46 20 72 27q44 13 84 13q100 0 211 -49q28 -13 39.5 -42.5t-1 -57.5t-42.5 -34q-28 -6 -58 8q-64 28 -116 34q-45 5 -92 -5q-29 -6 -87 -27l-20 -7q-51 -19 -80 -26q-48 -13 -93 -13zM310 809q-89 0 -184 48q-28 14 -38 43t4 56.5t45 31.5q28 5 58 -11q54 -27 100 -34q39 -5 81 4q26 5 78 24q13 5 40 16q46 19 72 27q44 12 84 12q104 0 222 -54q28 -14 39 -42.5t-2 -56.5t-43 -33q-28 -5 -59 9q-66 31 -120 38q-47 6 -95 -4q-29 -6 -89 -27l-20 -8q-51 -19 -80 -26q-48 -13 -93 -13z"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+[class*='membersWrap_']:hover .container__0f2e8 {
+        transform: translateX(-3px);
+}
+[class*='membersWrap_'] .container__0f2e8 {
+        cursor: default;
+        transform: translateX(45px);
+        transition: transform var(--hover-animation-speed);
+        overflow: visible;
+}
