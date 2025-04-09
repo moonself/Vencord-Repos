@@ -41,7 +41,6 @@
         transition: transform var(--hover-animation-speed);
         overflow: visible;
 }
-
 /* Default icon */
 [class*="membersWrap_"] .container__0f2e8::after {
         content: "";
@@ -67,6 +66,10 @@
 [class*="membersWrap_"] .container__0f2e8:has(svg path[d^="M8.65"])::after {
         background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' role='img' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='%23949ba4' d='M8.65 1.51A2 2 0 0 0 6 3.41v9.88A3.98 3.98 0 0 0 4.5 13C2.57 13 1 14.34 1 16s1.57 3 3.5 3S8 17.66 8 16V5.4l11 3.81v7.08a3.98 3.98 0 0 0-1.5-.29c-1.93 0-3.5 1.34-3.5 3s1.57 3 3.5 3 3.5-1.34 3.5-3V7.03c0-.74-.47-1.4-1.18-1.65L8.65 1.51Z' class=''/%3E%3C/svg%3E") !important;
 }
+/* Record icon override */
+[class*="membersWrap_"] .container__0f2e8:has(svg path[d^="M8 20"])::after {
+        background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' role='img' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='%23949ba4' fill-rule='evenodd' d='M8 20a1 1 0 0 0-1 1v.5c0 .28.22.5.5.5h9a.5.5 0 0 0 .5-.5V21a1 1 0 0 0-1-1h-1a2 2 0 0 1-2-2v-.48c0-.95.7-1.73 1.5-2.23a5.7 5.7 0 0 0 1.23-1.08l2.3-.7A7 7 0 0 0 23 6.81V6a2 2 0 0 0-2-2h-2.24A2.85 2.85 0 0 0 16 2H8c-1.3 0-2.43.84-2.76 2H3a2 2 0 0 0-2 2v.82a7 7 0 0 0 4.96 6.7l2.31.7c.37.42.79.78 1.24 1.07.8.5 1.49 1.28 1.49 2.23V18a2 2 0 0 1-2 2H8Zm9.29-8.35.17-.05A5 5 0 0 0 21 6.82V6h-2.27a21.75 21.75 0 0 1-1.44 5.65Zm-10.58 0-.17-.05A5 5 0 0 1 3 6.82V6h2.27c.25 1.94.7 3.95 1.44 5.65Z' clip-rule='evenodd' /%3E%3C/svg%3E") !important;
+}
 /* Hover animation for the icons */
 [class*='membersWrap_']:hover .container__0f2e8 {
         transform: translateX(-3px);
@@ -90,7 +93,6 @@
 .container_c8ffbb:hover .container__4bbc6 {
         opacity: 1;
 }
-
 .container__4bbc6 {
         opacity: 0;
         transition: opacity var(--hover-animation-speed-nametag);
