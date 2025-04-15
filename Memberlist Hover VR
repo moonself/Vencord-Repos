@@ -97,3 +97,42 @@
     opacity: 0;
     transition: opacity var(--nametag-fade-speed);
 }
+/* Support for MemberCount plugin */
+[class*="membersWrap_"] .vc-membercount-member-list {
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+    transform: translateX(30%);
+    transition: transform var(--hover-animation-speed);
+}
+[class*="membersWrap_"]:hover .vc-membercount-member-list {
+    transform: translateX(0%);
+}
+[class*="membersWrap_"] .vc-membercount-member-list::after {
+    content:"";
+    width: 30px;
+    height: 30px;
+    background-color: var(--icon-custom-color);
+    mask-image: url('data:image/svg+xml;base64,CjxzdmcgeD0iMCIgeT0iMCIgY2xhc3M9Imljb25fXzkyOTNmIiBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNC41IDhhMyAzIDAgMSAwLTIuNy00LjNjLS4yLjQuMDYuODYuNDQgMS4xMmE1IDUgMCAwIDEgMi4xNCAzLjA4Yy4wMS4wNi4wNi4xLjEyLjFaTTE4LjQ0IDE3LjI3Yy4xNS40My41NC43MyAxIC43M2gxLjA2Yy44MyAwIDEuNS0uNjcgMS41LTEuNWE3LjUgNy41IDAgMCAwLTYuNS03LjQzYy0uNTUtLjA4LS45OS4zOC0xLjEuOTItLjA2LjMtLjE1LjYtLjI2Ljg3LS4yMy41OC0uMDUgMS4zLjQ3IDEuNjNhOS41MyA5LjUzIDAgMCAxIDMuODMgNC43OFpNMTIuNSA5YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMFpNMiAyMC41YTcuNSA3LjUgMCAwIDEgMTUgMGMwIC44My0uNjcgMS41LTEuNSAxLjVhLjIuMiAwIDAgMS0uMi0uMTZjLS4yLS45Ni0uNTYtMS44Ny0uODgtMi41NC0uMS0uMjMtLjQyLS4xNS0uNDIuMXYyLjFhLjUuNSAwIDAgMS0uNS41aC04YS41LjUgMCAwIDEtLjUtLjV2LTIuMWMwLS4yNS0uMzEtLjMzLS40Mi0uMS0uMzIuNjctLjY3IDEuNTgtLjg4IDIuNTRhLjIuMiAwIDAgMS0uMi4xNkFxLjUgMS41IDAgMCAxIDIgMjAuNVoiIGNsYXNzPSIiPjwvcGF0aD4KPC9zdmc+Cg==');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    position: absolute;
+    left: -61px;
+    top: -5px;
+}
+[class*="membersWrap_"] .vc-membercount-member-list::before {
+    opacity: 0;
+    content:"";
+    width: 170px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--channels-default) 20%, transparent) !important;
+    position: absolute;
+    left: 39px;
+    top: -5px;
+    z-index: -1;
+    transition: opacity 0.3s ease-in;
+}
+[class*="membersWrap_"]:hover .vc-membercount-member-list::before {
+    opacity: 1;
+}
