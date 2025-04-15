@@ -18,10 +18,10 @@
     cursor: pointer;
 }
 .search__49676 .iconContainer_fea832:hover * {
-    color: rgb(255, 255, 255, 0.6)
+    color: var(--icon-secondary);
 }
 .search__49676:focus-within .searchBar__97492 {
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Visible border when focused */
+    border: 1px solid color-mix(in srgb, var(--icon-secondary) 20%, transparent);
     background: rgba(0, 0, 0, 0.2);
     width: 244px;
     align-items: center;
