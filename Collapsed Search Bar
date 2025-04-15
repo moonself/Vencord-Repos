@@ -1,0 +1,29 @@
+.icon__97492 {
+    cursor: pointer;
+}
+.search__49676:not(:focus-within) .searchBar__97492 {
+    cursor: pointer;
+    border: transparent;
+    background: transparent;
+    width: 30px;
+    align-items: center;
+    transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
+}
+.search__49676 .iconContainer_fea832 {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.search__49676 .iconContainer_fea832:hover * {
+    color: rgb(255, 255, 255, 0.6)
+}
+.search__49676:focus-within .searchBar__97492 {
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Visible border when focused */
+    background: rgba(0, 0, 0, 0.2);
+    width: 244px;
+    align-items: center;
+    transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
+}
