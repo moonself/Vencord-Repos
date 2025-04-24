@@ -89,13 +89,13 @@
     transition: transform var(--hover-animation-speed);
     overflow: visible;
 }
-/* Nametag fade in/out */
-.container_c8ffbb:hover .container__4bbc6 {
-    opacity: 1;
-}
-.container__4bbc6 {
+/* Nameplate Fade In */
+.container_c8ffbb .container__4bbc6 {
     opacity: 0;
     transition: opacity var(--nametag-fade-speed);
+}
+.container_c8ffbb:hover .container__4bbc6 {
+    opacity: 1;
 }
 /* Support for MemberCount plugin */
 [class*="membersWrap_"] .vc-membercount-member-list {
