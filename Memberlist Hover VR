@@ -14,6 +14,10 @@
 .memberInner__5d473 {
     margin-left: -6px;
 }
+.container_c8ffbb, .members_c8ffbb {
+    border: none !important;
+    box-shadow: inset 1px 0 0 0 var(--border-subtle);
+}
 [class*="membersWrap_"] [class*="members_"] {
     transition: transform var(--hover-animation-speed);
 }
