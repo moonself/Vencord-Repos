@@ -1,5 +1,5 @@
 /* Message Actions Hover */
-[class^=buttonsInner_] [aria-label]:not([aria-label="More"]) {
+[class^=buttonsInner_] [aria-label]:not([aria-label="More"],[aria-label="Delete"]) {
     pointer-events: none;
     opacity: 0;
     position: relative;
@@ -8,7 +8,7 @@
     z-index: 1;
 }
 
-[class^=buttonsInner_]:hover [aria-label]:not([aria-label="More"]) {
+[class^=buttonsInner_]:hover [aria-label]:not([aria-label="More"],[aria-label="Delete"]) {
     pointer-events: all;
     opacity: 1;
     position: relative;
