@@ -21,7 +21,7 @@
     color: var(--icon-secondary);
 }
 .search__49676:focus-within .searchBar__97492 {
-    border: 1px solid color-mix(in srgb, var(--icon-secondary) 20%, transparent);
+    border: 1px solid var(--border-subtle);
     background: rgba(0, 0, 0, 0.2);
     width: 244px;
     align-items: center;
