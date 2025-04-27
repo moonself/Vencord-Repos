@@ -109,7 +109,8 @@
     background: rgba(0, 0, 0, 0.2);
     padding: 8px;
     gap: 4px;
-    transform: translateX(30%);
+    transform: translateX(50%);
+    transition: transform var(--hover-animation-speed);
     position: relative;
 }
 [class*="membersWrap_"]:hover .vc-membercount-member-list > div {
