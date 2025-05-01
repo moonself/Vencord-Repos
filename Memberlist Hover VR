@@ -6,7 +6,7 @@
     right: 0;
 }
 [class*="member_"] {
-    right: 3px;
+    right: 2px;
 }
 .memberInner__5d473, .content__91a9d, .membersGroup_c8ffbb {
     margin-left: 3px;
