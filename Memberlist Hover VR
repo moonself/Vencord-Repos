@@ -94,11 +94,11 @@
     overflow: visible;
 }
 /* Nameplate Fade In */
-.container_c8ffbb .container__4bbc6 {
+[class^=membersWrap] .container__4bbc6 {
     opacity: 0;
     transition: opacity var(--nametag-fade-speed);
 }
-.container_c8ffbb:hover .container__4bbc6 {
+[class^=membersWrap]:hover .container__4bbc6 {
     opacity: 1;
 }
 /* Support for MemberCount plugin */
