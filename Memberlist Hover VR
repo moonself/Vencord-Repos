@@ -1,18 +1,16 @@
 /* Memberlist Hover Visual Refresh*/
 .container_c8ffbb, [class*="membersWrap_"] {
+    position: relative;
     justify-content: unset;
     min-width: unset;
     width: 60px;
     right: 0;
 }
-[class*="member_"] {
-    right: 2px;
-}
-.memberInner__5d473, .content__91a9d, .membersGroup_c8ffbb {
+.content__91a9d, .membersGroup_c8ffbb {
     margin-left: 3px;
 }
 .memberInner__5d473 {
-    margin-left: -6px;
+    margin-left: -4% !important;
 }
 .container_c8ffbb, .members_c8ffbb {
     border: none !important;
