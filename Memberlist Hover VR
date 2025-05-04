@@ -10,7 +10,7 @@
     margin-left: 3px;
 }
 .memberInner__5d473 {
-    margin-left: -4% !important;
+    margin-left: -0.5rem !important;
 }
 .container_c8ffbb, .members_c8ffbb {
     border: none !important;
