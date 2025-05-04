@@ -39,7 +39,7 @@
 }
 [class*='membersWrap_'] [class*="membersGroup_"] {
     cursor: default;
-    transform: translateX(45px);
+    transform: translateX(46px);
     transition: transform var(--hover-animation-speed);
     overflow: visible;
 }
