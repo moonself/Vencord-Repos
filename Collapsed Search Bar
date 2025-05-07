@@ -1,5 +1,4 @@
 .search__49676:not(:focus-within) .searchBar__97492 {
-    cursor: pointer;
     border: transparent;
     background: transparent;
     margin-left: -6px;
@@ -17,6 +16,12 @@
 }
 .search__49676 .iconContainer_fea832:hover * {
     color: var(--icon-secondary);
+}
+.search__49676:focus-within .iconContainer_fea832 * {
+    color: var(--icon-primary);
+}
+.icon__97492 {
+    cursor: auto;
 }
 .search__49676:focus-within .searchBar__97492 {
     border: 1px solid var(--border-subtle);
