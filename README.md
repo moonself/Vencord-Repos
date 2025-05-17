@@ -6,7 +6,7 @@
 ```
 ---
 
-<img align="left" width="300" src="Images/Memberlist.gif"> <img align="left" width="5" height="450" src="Images/gap.png">
+<img align="left" width="300" src="Images/Memberlist.gif"> <img align="left" width="5" height="600" src="Images/gap.png">
 
 ### These variables are necessary for the snippet to function
 ```css
