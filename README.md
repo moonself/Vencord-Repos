@@ -1,6 +1,6 @@
 
 # Memberlist Hover
-### Collapses the member list with a minimalistic style and expands it on hover.
+Collapses the member list with a minimalistic style and expands it on hover
 ```css
 @import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Memberlist%20Hover');
 ```
@@ -19,12 +19,19 @@ These variables are necessary for the snippet to function
 
 ---
 Supports the activity cards and the [MemberCount plugin](https://vencord.dev/plugins/MemberCount)
-<p>
-    <img align="center" width="250" src="Images/Activity-Cards.gif">
-    <img align="center" width="250" src="Images/MemberCount.gif">
-    <img align="center" width="5" height="30" src="Images/gap.png">
+<p align="center">
+    <img width="250" src="Images/Activity-Cards.gif">
+    <img width="250" src="Images/MemberCount.gif">
+    <img width="5" height="30" src="Images/gap.png">
 </p>
 
 ---
 # Action Button Hover
-### 
+Collapses the message action button and expands it on hover
+```css
+@import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Action%20Button%20Hover');
+```
+---
+<p align="center">
+  <img src="Images/Action-Button-Hover.gif">
+</p>
