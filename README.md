@@ -6,9 +6,9 @@
 ```
 ---
 
-<img align="left" width="300" src="Images/Memberlist.gif"> <img align="left" width="5" height="380" src="Images/gap.png">
+<img align="left" width="300" src="Images/Memberlist.gif"> <img align="left" width="5" height="400" src="Images/gap.png">
 
-### These variables are necessary for the snippet to function
+These variables are necessary for the snippet to function
 ```css
 :root {
     --hover-animation-speed: 0.3s;
@@ -22,6 +22,9 @@ Supports the activity cards and the [MemberCount plugin](https://vencord.dev/plu
 <p>
     <img align="center" width="250" src="Images/Activity-Cards.gif">
     <img align="center" width="250" src="Images/MemberCount.gif">
+    <img align="center" width="5" height="30" src="Images/gap.png">
 </p>
 
 ---
+# Action Button Hover
+### 
