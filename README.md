@@ -20,10 +20,8 @@
 ---
 Supports the activity cards and the [MemberCount plugin](https://vencord.dev/plugins/MemberCount)
 <p>
-    <img align="left" width="250" src="Images/Activity-Cards.gif" >
-    <p>
-    <img align="right" width="250" src="Images/MemberCount.gif" >
+    <img align="center" width="250" src="Images/Activity-Cards.gif">
+    <img align="center" width="250" src="Images/MemberCount.gif">
 </p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ---
