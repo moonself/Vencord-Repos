@@ -6,7 +6,7 @@
 ```
 ---
 
-<img align="left" width="300" src="Images/Memberlist.gif"> <img align="left" width="5" height="400" src="Images/gap.png">
+<img align="left" width="300" src="Images/Memberlist.gif"> <img align="left" width="5" height="450" src="Images/gap.png">
 
 ### These variables are necessary for the snippet to function
 ```css
@@ -20,9 +20,9 @@
 ---
 ### Supports the activity cards and the [MemberCount plugin](https://vencord.dev/plugins/MemberCount)
 <p>
-    <img align="center" width="1" height="185" src="Images/gap.png">
-    <img align="left" src="Images/Activity-Cards.gif" hspace="20">
-    <img align="right" src="Images/MemberCount.gif" hspace="20">
+    <img align="center" src="Images/Activity-Cards.gif" >
+    <p>
+    <img align="center" src="Images/MemberCount.gif" >
 </p>
 
 ---
