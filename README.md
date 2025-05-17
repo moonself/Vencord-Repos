@@ -31,7 +31,7 @@ Hides all but one message action buttons and reveals them all on hover
 @import url('https://raw.githubusercontent.com/lithwack/Vencord-Repos/refs/heads/main/Message%20Actions%20Hover');
 ```
 <p align="left">
-  <img src="Images/Message-Actions-Hover.gif">
+  <img src="Images/Message-Action-Hover.gif">
 </p>
 
 ---
