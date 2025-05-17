@@ -18,7 +18,7 @@
 ```
 
 ---
-### Supports the activity cards and the [MemberCount plugin](https://vencord.dev/plugins/MemberCount)
+Supports the activity cards and the [MemberCount plugin](https://vencord.dev/plugins/MemberCount)
 <p>
     <img align="center" src="Images/Activity-Cards.gif" >
     <p>
