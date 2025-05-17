@@ -1,0 +1,151 @@
+/* Member List */
+.membersGroup_c8ffbb {
+    position: relative;
+    display: inline-block;
+}
+.membersGroup_c8ffbb * {
+    .roleIcon__1e6f1 {
+        display: none;
+    }
+}
+.membersGroup_c8ffbb::before {
+    content: "";
+    background-color: currentColor;
+    height: 15px;
+    border-radius: 12px;
+    width: 100%;
+    position: absolute;
+    top: 18px;
+    left: 11px;
+    pointer-events: none;
+}
+.videoContainer__4bbc6 {
+    display: none;
+}
+.memberInner__5d473 {
+    position: relative;
+    /* Username */
+    .nameContainer__703b9::before {
+        content: "";
+        background-color: currentColor;
+        height: 13px;
+        border-radius: 12px;
+        width: 100%;
+        position: absolute;
+        top: 4px;
+        left: 0;
+        pointer-events: none;
+    }
+    .name__703b9 {
+        color: transparent !important;
+    }
+    .emoji_c9d15c {
+        display: none;
+    }
+    /* Activity Status */
+    .overflow__82b15::before {
+        content: "";
+        background-color: var(--channels-default);
+        height: 8px;
+        border-radius: 12px;
+        width: 100%;
+        position: absolute;
+        top: 4px;
+        left: 0;
+        pointer-events: none;
+    }
+    .overflow__82b15 {
+        color: transparent;
+    }
+    /* Server Tag */
+    .chipletContainerInner__10651 {
+        position: relative;
+    }
+    .lineClamp1__4bd52::before {
+        content: "";
+        background-color: currentColor;
+        height: 10px;
+        border-radius: 12px;
+        width: calc(100% - 22px);
+        position: absolute;
+        top: 4px;
+        left: 18px;
+    }
+    .unselectable__10651 {
+        color: transparent !important;
+    }
+    /* Avatar */
+    .wrapper__44b0c img {
+        visibility: hidden;
+    }
+    .avatarStack__44b0c {
+        background-color: var(--channels-default);
+        width: 100px;
+        height: 100px;
+    }
+    .avatarDecoration__44b0c {
+        display: none;
+    }
+}
+/* Activity Cards */
+.container__0f2e8 {
+    .userSection__0f2e8  {
+        position: relative;
+        /* Name */
+        .nameContainer__703b9 {
+            position: relative;
+            align-items: center;
+        }
+        .nameContainer__703b9::after {
+            content: "";
+            position: absolute;
+            background-color: currentColor;
+            height: 13px;
+            border-radius: 12px;
+            width: 100%;
+            pointer-events: none;
+        }
+        .name__703b9 {
+            visibility: hidden;
+        }
+        /* Avatar */
+        .wrapper__44b0c img {
+            visibility: hidden;
+            align-items: center;
+        }
+        .wrapper__44b0c {
+            background-color: var(--channels-default);
+            width: 100px;
+            height: 100px;
+        }
+    }
+    /* Artist Name */
+    .lineClamp1__4bd52::after {
+        content: "";
+        background-color: currentColor;
+        height: 10px;
+        border-radius: 12px;
+        width: 70%;
+        position: absolute;
+        left: 7px;
+        top: 29px;
+        pointer-events: none;
+    }
+    .lineClamp1__4bd52 {
+        text-indent: 100%;
+    }
+    /* Thumbnail */
+    .infoSection__0f2e8::after {
+        content: "";
+        position: absolute;
+        background-color: var(--channels-default);
+        height: 48px;
+        border-radius: 8px;
+        width: 48px;
+        top: 7px;
+        left: 182px !important;
+    }
+    .contentImage__42bf5 {
+        visibility: hidden;
+    }
+}
