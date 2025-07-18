@@ -1,5 +1,5 @@
 .search__49676 {
-    &:not(:focus-within) .searchBar__97492 {
+    &:not(:focus-within) [class*=searchBar_] {
         border: transparent;
         background: transparent;
         margin-left: -6px;
@@ -7,7 +7,7 @@
         align-items: center;
         transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
     }
-    .iconContainer_a45028 {
+    [class*=iconContainer_] {
         width: 20px;
         height: 20px;
         position: absolute;
@@ -22,10 +22,10 @@
         cursor: auto;
     }
     &:focus-within {
-        .iconContainer_a45028 * {
+        [class*=iconContainer_] * {
             color: var(--icon-primary);
         }
-        .searchBar__97492 {
+        [class*=searchBar_] {
             border: 1px solid var(--border-subtle);
             background: var(--bg-base-tertiary);
             width: 244px;
