@@ -23,6 +23,6 @@
   }
 }
 /* Hidden Buttons */
-button[aria-label="Apps"], button[aria-label="Send a gift"] { 
+button[aria-label="Apps"], [aria-label="Send a gift"] { 
     display: none;
 }
