@@ -1,11 +1,14 @@
 .search__49676 {
-    &:not(:focus-within) [class*=searchBar_] {
-        border: transparent;
-        background: transparent;
-        margin-left: -6px;
-        width: 30px;
-        align-items: center;
-        transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
+    &:not(:focus-within) {
+        [class*=searchBar_] {
+            border: transparent;
+            background: transparent;
+            margin-left: -6px;
+            width: 30px;
+            height: 16px;
+            align-items: center;
+            transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
+        }
     }
     [class*=iconContainer_] {
         width: 20px !important;
@@ -14,8 +17,11 @@
         margin-right: 4px !important;
         right: 0;
         cursor: pointer;
+        .icon__0c4c4 {
+            color: var(--icon-tertiary);
+        }
         &:hover * {
-            color: var(--icon-secondary);
+            color: var(--icon-tertiary);
         }
     }
     .icon__97492, .DraftEditor-root {
@@ -24,6 +30,7 @@
     &:focus-within {
         [class*=iconContainer_] * {
             color: var(--icon-primary);
+            cursor: auto;
         }
         [class*=searchBar_] {
             border: 1px solid var(--border-subtle);
