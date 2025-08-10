@@ -8,8 +8,8 @@
         transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
     }
     [class*=iconContainer_] {
-        width: 20px;
-        height: 20px;
+        width: 20px !important;
+        height: 20px !important;
         position: absolute;
         margin-right: 4px !important;
         right: 0;
