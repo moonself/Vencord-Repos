@@ -1,16 +1,18 @@
 .message__5126c {
     .chipletContainerInner__10651 {
-        max-width: 12px;
+        max-width: 14px;
         transition: max-width var(--expand-speed) var(--expand-delay);
         overflow: hidden;
-        .badge__10651 {
-            margin-right: 5px;
-        }
     }
     .chipletContainerInner__10651:hover {
         max-width: 60px;
     }
     .chipletContainerInner__10651:not(:hover) {
         transition-delay: var(--collapse-delay);
+    }
+}
+.repliedMessage_c19a55 {
+    .chipletContainerInner__10651 {
+        max-width: 12px;
     }
 }
