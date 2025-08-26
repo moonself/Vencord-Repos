@@ -9,9 +9,6 @@
 .content__91a9d, .membersGroup_c8ffbb {
     margin-left: 3px;
 }
-.memberInner__5d473 {
-    margin-left: -0.5rem !important;
-}
 .container_c8ffbb, .membersWrap_c8ffbb, .members_c8ffbb {
     border: none !important;
     box-shadow: inset 1px 0 0 0 var(--border-subtle);
