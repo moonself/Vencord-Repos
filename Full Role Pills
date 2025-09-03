@@ -4,6 +4,7 @@
     .roleCircle__4f569::before {
         content: "";
         position: absolute;
+        pointer-events: none;
         inset: 0;
         border-radius: var(--pill-roundness);
         background-color: inherit;
