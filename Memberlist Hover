@@ -1,4 +1,3 @@
-/* Memberlist Hover Visual Refresh*/
 .container_c8ffbb, [class*="membersWrap_"] {
     position: relative;
     justify-content: unset;
@@ -6,10 +5,10 @@
     width: 60px;
     right: 0;
 }
-.content__91a9d, .membersGroup_c8ffbb {
+.content__91a9d, [class*="membersGroup_"] {
     margin-left: 3px;
 }
-.container_c8ffbb, .membersWrap_c8ffbb, .members_c8ffbb {
+.container_c8ffbb, [class*="membersWrap_"], [class*="members_"] {
     border: none !important;
     box-shadow: inset 1px 0 0 0 var(--border-subtle);
 }
@@ -101,35 +100,45 @@
     opacity: 1;
 }
 /* Support for MemberCount plugin */
-[class*="membersWrap_"] .vc-membercount-member-list > div {
+[class*="membersWrap_"] .vc-membercount-widget > div {
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    color: var(--primary-400);
     background: rgba(0, 0, 0, 0.2);
     padding: 8px;
-    gap: 4px;
+    gap: 2px;
     transform: translateX(50%);
     transition: transform var(--hover-animation-speed);
     position: relative;
 }
-[class*="membersWrap_"]:hover .vc-membercount-member-list > div {
+[class*="membersWrap_"] .vc-membercount-widget {
+    gap: 0;
+}
+[class*="membersWrap_"]:hover .vc-membercount-widget > div {
     transform: translateX(0%);
 }
-[class*="membersWrap_"] .vc-membercount-member-list > div:nth-child(1) {
-    border-radius: 8px 0 0 8px;
-    border-style: dotted;
+[class*="membersWrap_"] .vc-membercount-widget > div:nth-child(1) {
+    border-radius: 16px 0 0 16px;
     border-left: 1px solid var(--border-subtle);
     border-top: 1px solid var(--border-subtle);
     border-bottom: 1px solid var(--border-subtle);
 }
-[class*="membersWrap_"] .vc-membercount-member-list > div:nth-child(3) {
-    border-radius: 0 8px 8px 0;
+[class*="membersWrap_"] .vc-membercount-widget > div:nth-child(3) {
+    border-radius: 0px 16px 16px 0px;
     border-right: 1px solid var(--border-subtle);
     border-top: 1px solid var(--border-subtle);
     border-bottom: 1px solid var(--border-subtle);
 }
-[class*="membersWrap_"] .vc-membercount-member-list > div span {
-    margin: 0;
+[class*="membersWrap_"] .vc-membercount-widget:has(> div:nth-child(5)) > div:nth-child(3) {
+    border-radius: 0;
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+    border-right: 0;
+}
+[class*="membersWrap_"] .vc-membercount-widget > div:nth-child(5) {
+    border-radius: 0px 16px 16px 0px;
+    border-right: 1px solid var(--border-subtle);
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
 }
 [class*="membersWrap_"] .vc-membercount-member-list::after {
     content:"";
