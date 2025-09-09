@@ -94,7 +94,7 @@
                 width: 32px;
                 height: 32px;
                 background-color: var(--icon-custom-color);
-                mask-image: url('data:image/svg+xml;base64,CjxzdmcgeD0iMCIgeT0iMCIgY2xhc3M9Imljb25fXzkyOTNmIiBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNC41IDhhMyAzIDAgMSAwLTIuNy00LjNjLS4yLjQuMDYuODYuNDQgMS4xMmE1IDUgMCAwIDEgMi4xNCAzLjA4Yy4wMS4wNi4wNi4xLjEyLjFaTTE4LjQ0IDE3LjI3Yy4xNS40My41NC43MyAxIC43M2gxLjA2Yy44MyAwIDEuNS0uNjcgMS41LTEuNWE3LjUgNy41IDAgMCAwLTYuNS03LjQzYy0uNTUtLjA4LS45OS4zOC0xLjEuOTItLjA2LjMtLjE1LjYtLjI2Ljg3LS4yMy41OC0uMDUgMS4zLjQ3IDEuNjNhOS41MyA5LjUzIDAgMCAxIDMuODMgNC43OFpNMTIuNSA5YTMgMyAwIDEgMS02IDAgMyAzIDAgMCAxIDYgMFpNMiAyMC41YTcuNSA3LjUgMCAwIDEgMTUgMGMwIC44My0uNjcgMS41LTEuNSAxLjVhLjIuMiAwIDAgMS0uMi0uMTZjLS4yLS45Ni0uNTYtMS44Ny0uODgtMi41NC0uMS0uMjMtLjQyLS4xNS0uNDIuMXYyLjFhLjUuNSAwIDAgMS0uNS41aC04YS41LjUgMCAwIDEtLjUtLjV2LTIuMWMwLS4yNS0uMzEtLjMzLS40Mi0uMS0uMzIuNjctLjY3IDEuNTgtLjg4IDIuNTRhLjIuMiAwIDAgMS0uMi4xNkFxLjUgMS41IDAgMCAxIDIgMjAuNVoiIGNsYXNzPSIiPjwvcGF0aD4KPC9zdmc+Cg==');
+                mask-image: url('https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Membercount.svg');
                 mask-repeat: no-repeat;
                 mask-size: contain;
                 position: absolute;
