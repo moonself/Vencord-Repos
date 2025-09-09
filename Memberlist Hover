@@ -51,19 +51,19 @@
                 left: -46px;
                 top: 15px;
                 background-color: var(--icon-custom-color);
-                mask-image: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Whats-New.svg");
+                mask-image: var(--icon-mask);
                 mask-repeat: no-repeat;
                 mask-size: contain;
                 transition: transform var(--hover-animation-speed) !important;
             }
             /* Gaming icon override */
-            &:has(svg > path[d^="M20.97"])::after { mask-image: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
+            &:has(> div.cardRow__0f2e8 > div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M20.97"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
             /* Listening icon override */
-            &:has(svg > path[d^="M8.65"])::after { mask-image: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
+            &:has(> div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M8.65"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
             /* Watching icon override */
-            &:has(svg > path[d^="M4 3a3"])::after { mask-image: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
+            &:has(> div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M4 3a3"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
             /* Record icon override */
-            &:has(svg > path[d^="M8 20"])::after { mask-image: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
+            &:has(> div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M8 20"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
         }
         &:hover .container__0f2e8 {
             transform: translateX(-3px);
@@ -108,19 +108,14 @@
                 border: 1px solid var(--border-subtle);
                 border-right: none;
             }
-            > div:nth-child(3) {
-                border-radius: 0px 16px 16px 0px;
-                border: 1px solid var(--border-subtle);
-                border-left: none;
-            }
-            > .vc-membercount-container:nth-of-type(2):has(+ span + .vc-membercount-container) {
+            > .vc-membercount-container[aria-label*="total"]:nth-last-child(4) {
                 border-radius: 0;
                 border-top: 1px solid var(--border-subtle);
                 border-bottom: 1px solid var(--border-subtle);
                 border-right: 0;
             }
-            > div:nth-child(5) {
-                border-radius: 0px 16px 16px 0px;
+            > .vc-membercount-container:nth-last-child(2) {
+                border-radius: 0 16px 16px 0;
                 border: 1px solid var(--border-subtle);
                 border-left: none;
             }
