@@ -113,7 +113,7 @@
                 border: 1px solid var(--border-subtle);
                 border-left: none;
             }
-            &:has(> div:nth-child(5)) > div:nth-child(3) {
+            > .vc-membercount-container:nth-of-type(2):has(+ span + .vc-membercount-container) {
                 border-radius: 0;
                 border-top: 1px solid var(--border-subtle);
                 border-bottom: 1px solid var(--border-subtle);
