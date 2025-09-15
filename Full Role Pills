@@ -42,18 +42,17 @@
     }
 }
 .outer_c0bea0 {
-    &.theme-dark.images-dark,
     &.theme-light.images-light {
         --button-bg: rgba(0, 0, 0, 0.1);
         --button-bg-hover: rgba(0, 0, 0, 0.2);
     }
     &.theme-dark.images-dark {
-        --btn-bg: rgba(255, 255, 255, 0.1);
-        --btn-bg-hover: rgba(255, 255, 255, 0.2);
+        --button-bg: rgba(255, 255, 255, 0.1);
+        --button-bg-hover: rgba(255, 255, 255, 0.2);
     }
     .expandButton_fccfdf.pill_fccfdf,
     .vc-permviewer-role-button,
-    .button__7d7f7 {
+    .collapseButton_fccfdf {
         border-color: transparent;
         border-radius: 16px;
         background-color: var(--button-bg);
