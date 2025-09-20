@@ -61,6 +61,9 @@
         background-color: var(--button-bg-hover);
     }
     }
+    .button__7d7f7 > div {
+        margin-right: 4px !important;
+    }
 }
 @keyframes seamlessGradient {
     0% {
