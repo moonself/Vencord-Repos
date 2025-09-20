@@ -52,7 +52,8 @@
     }
     .expandButton_fccfdf.pill_fccfdf,
     .vc-permviewer-role-button,
-    .collapseButton_fccfdf {
+    .collapseButton_fccfdf,
+    .button__7d7f7 {
         border-color: transparent;
         border-radius: 16px;
         background-color: var(--button-bg);
