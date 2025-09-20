@@ -57,9 +57,9 @@
         border-color: transparent;
         border-radius: 16px;
         background-color: var(--button-bg);
-    &:hover {
-        background-color: var(--button-bg-hover);
-    }
+        &:hover {
+            background-color: var(--button-bg-hover);
+        }
     }
     .button__7d7f7 > div {
         margin-right: 4px !important;
