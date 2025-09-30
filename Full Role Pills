@@ -1,6 +1,9 @@
 .role_dfa8b6.pill_dfa8b6 {
     position: relative;
     border-color: transparent;
+    >:first-child {
+        margin-right: 0 !important;
+    }
     .roleCircle__4f569::before {
         content: "";
         position: absolute;
@@ -62,7 +65,7 @@
         }
     }
     .button__7d7f7 > div {
-        margin-right: 4px !important;
+        margin-left: -4px !important;
     }
 }
 @keyframes seamlessGradient {
