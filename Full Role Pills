@@ -1,6 +1,10 @@
 .role_dfa8b6.pill_dfa8b6 {
     position: relative;
     border-color: transparent;
+    @container style(--pill-border: true) {
+        border-color: var(--pill-border-color);
+        border-radius: var(--pill-roundness);
+    }
     >:first-child {
         margin-right: 0 !important;
     }
@@ -12,7 +16,6 @@
         border-radius: var(--pill-roundness);
         background-color: inherit;
         opacity: var(--pill-opacity);
-        z-index: 0;
     }
     .twoColorGradient_e5de78::before,
     .threeColorGradient_e5de78::before {
@@ -37,7 +40,7 @@
     .roleRemoveButtonCanRemove_dfa8b6 {
         .roleRemoveIcon_dfa8b6 {
             opacity: 0;
-            left: 10px !important;
+            left: 14px !important;
         }
         &:hover .roleRemoveIcon_dfa8b6 {
             opacity: 1;
@@ -46,12 +49,14 @@
 }
 .outer_c0bea0 {
     &.theme-light.images-light {
-        --button-bg: rgba(0, 0, 0, 0.1);
-        --button-bg-hover: rgba(0, 0, 0, 0.2);
+        --button-bg: rgb(0 0 0 / 0.1);
+        --button-bg-hover: rgb(0 0 0 / 0.2);
+        --pill-border-color: rgb(0 0 0 / 0.15);
     }
     &.theme-dark.images-dark {
-        --button-bg: rgba(255, 255, 255, 0.1);
-        --button-bg-hover: rgba(255, 255, 255, 0.2);
+        --button-bg: rgb(255 255 255 / 0.1);
+        --button-bg-hover: rgba(255 255 255 / 0.2);
+        --pill-border-color: rgb(255 255 255 / 0.15);
     }
     .expandButton_fccfdf.pill_fccfdf,
     .vc-permviewer-role-button,
@@ -63,9 +68,6 @@
         &:hover {
             background-color: var(--button-bg-hover);
         }
-    }
-    .button__7d7f7 > div {
-        margin-left: -4px !important;
     }
 }
 @keyframes seamlessGradient {
