@@ -1,4 +1,4 @@
-.content_f75fb0 {
+.content_f75fb0, .container_c8ffbb {
     border: none !important;
     [class*="membersWrap_"] {
         position: relative;
