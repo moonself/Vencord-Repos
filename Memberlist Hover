@@ -57,18 +57,18 @@
                 mask-size: contain;
                 transition: transform var(--hover-animation-speed) !important;
             }
-            /* Gaming icon override */
-            &:has(> div.cardRow__0f2e8 > div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M20.97"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
-            /* Listening icon override */
-            &:has(> div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M8.65"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
-            /* Watching icon override */
-            &:has(> div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M4 3a3"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
-            /* Record icon override */
-            &:has(> div.infoSection__0f2e8 > div.badgesContainer__635ed > div.badgeContainer__635ed > svg > path[d^="M8 20"])::after { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
         }
         &:hover .container__0f2e8 {
             transform: translateX(-3px);
         }
+        /* Gaming icon */
+        .container__0f2e8:has(svg > path[d^="M20.97"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
+        /* Listening icon */
+        .container__0f2e8:has(svg > path[d^="M8.65"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
+        /* Watching / Streaming icon */
+        .container__0f2e8:has(svg > path[d^="M4 3a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
+        /* Recording icon */
+        .container__0f2e8:has(svg > path[d^="M8 20"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
     /* Nameplate Fade In */
         .container__4bbc6 {
             opacity: 0;
