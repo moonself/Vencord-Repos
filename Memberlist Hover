@@ -1,12 +1,11 @@
-.content_f75fb0, 
-.content_f75fb0 .container_c8ffbb {
-    border: none !important;
+.content_f75fb0 {
     [class*="membersWrap_"] {
         position: relative;
         justify-content: unset;
         min-width: unset;
         width: 60px;
         right: 0;
+        border: none !important;
         [class*="members_"] {
             box-shadow: inset 1px 0 0 0 var(--border-subtle);
             transition: transform var(--hover-animation-speed);
