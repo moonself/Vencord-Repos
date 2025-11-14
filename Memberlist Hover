@@ -1,32 +1,28 @@
 .content_f75fb0, .container_c8ffbb {
     border: none !important;
-    [class*="membersWrap_"] {
+    .membersWrap_c8ffbb {
         position: relative;
         justify-content: unset;
         min-width: unset;
         width: 60px;
         right: 0;
         border: none !important;
-        [class*="members_"] {
+        .members_c8ffbb {
             box-shadow: inset 1px 0 0 0 var(--border-subtle);
             transition: transform var(--hover-animation-speed);
-            &:hover {
-                transform: translateX(-196px);
-            }
+            &:hover { transform: translateX(-196px); }
         }
         .content__91a9d { margin-left: 3px; }
     /* Rolegroup seperator */
-        [class*="membersGroup_"] {
+        .membersGroup_c8ffbb {
             margin-left: 3px;
             cursor: default;
             transform: translateX(46px);
             transition: transform var(--hover-animation-speed);
             overflow: visible;
         }
-        &:hover [class*="membersGroup_"] {
-            transform: translateX(-3px);
-        }
-        [class*="membersGroup_"]::after {
+        &:hover .membersGroup_c8ffbb { transform: translateX(-3px); }
+        .membersGroup_c8ffbb::after {
             content:"";
             width: 30px;
             height: 3px;
@@ -43,7 +39,6 @@
             cursor: default;
             transform: translateX(45px);
             transition: transform var(--hover-animation-speed);
-            overflow: visible;
             &::after {
                 content: "";
                 width: 30px;
@@ -55,12 +50,9 @@
                 mask-image: var(--icon-mask);
                 mask-repeat: no-repeat;
                 mask-size: contain;
-                transition: transform var(--hover-animation-speed) !important;
             }
         }
-        &:hover .container__0f2e8 {
-            transform: translateX(-3px);
-        }
+        &:hover .container__0f2e8 { transform: translateX(-3px); }
         /* Gaming icon */
         .container__0f2e8:has(svg > path[d^="M20.97"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
         /* Listening icon */
@@ -74,9 +66,7 @@
             opacity: 0;
             transition: opacity var(--nametag-fade-speed);
         }
-        &:hover .container__4bbc6{
-            opacity: 1;
-        }
+        &:hover .container__4bbc6 { opacity: 1; }
     /* Support for MemberCount plugin */
         .vc-membercount-widget {
             gap: 0;
@@ -122,12 +112,8 @@
             }
         }
         &:hover .vc-membercount-widget {
-            > div {
-                transform: translateX(0%);
-            }
-            &::after {
-                transform: translateX(-46px);
-            }
+            > div { transform: translateX(0%); }
+            &::after { transform: translateX(-46px); }
         }
     }
 }
