@@ -1,43 +1,49 @@
-.search__49676 {
+._496769951eb140fe-search {
     &:not(:focus-within) {
-        [class*=searchBar_] {
-            border: transparent;
-            background: transparent;
+        ._974928fe84ca9647-searchBar {
+            border: 1px solid transparent;
+            background-color: transparent;
             margin-left: -6px;
-            width: 30px;
-            height: 16px;
+            width: 28px;
+            height: 28px;
             align-items: center;
-            transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
+            cursor: pointer;
+            transition: width 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+            .DraftEditor-root {
+                pointer-events: none;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
         }
     }
-    [class*=iconContainer_] {
+    ._0c4c409e1915aba4-iconContainer {
         width: 20px !important;
         height: 20px !important;
         position: absolute;
         margin-right: 4px !important;
         right: 0;
         cursor: pointer;
-        .icon__0c4c4 {
+        ._0c4c409e1915aba4-icon {
             color: var(--icon-tertiary);
         }
         &:hover * {
             color: var(--icon-tertiary);
         }
     }
-    .icon__97492, .DraftEditor-root {
+    ._974928fe84ca9647-icon, .DraftEditor-root {
         cursor: auto;
     }
     &:focus-within {
-        [class*=iconContainer_] * {
+        ._0c4c409e1915aba4-iconContainer * {
             color: var(--icon-primary);
             cursor: auto;
         }
-        [class*=searchBar_] {
-            border: 1px solid var(--border-subtle);
-            background: var(--bg-base-tertiary);
+        ._974928fe84ca9647-searchBar {
+            border-color: var(--border-subtle);
+            background-color: var(--bg-base-tertiary);
             width: 244px;
             align-items: center;
-            transition: width 0.3s ease, background 0.3s ease, border 0.3s ease;
+            transition: width 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
         }
     }
 }
