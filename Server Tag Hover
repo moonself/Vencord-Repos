@@ -1,18 +1,18 @@
-.message__5126c {
-    .chipletContainerInner__10651 {
+._5126c0cd07f243a0-message {
+    ._10651c5cfe637db6-chipletContainerInner {
         max-width: 14px;
         transition: max-width var(--expand-speed) var(--expand-delay);
         overflow: hidden;
     }
-    .chipletContainerInner__10651:hover {
+    ._10651c5cfe637db6-chipletContainerInner:hover {
         max-width: 60px;
     }
-    .chipletContainerInner__10651:not(:hover) {
+    ._10651c5cfe637db6-chipletContainerInner:not(:hover) {
         transition-delay: var(--collapse-delay);
     }
 }
-.repliedMessage_c19a55 {
-    .chipletContainerInner__10651 {
+.c19a557985eb7793-repliedMessage {
+    ._10651c5cfe637db6-chipletContainerInner {
         max-width: 12px;
     }
 }
