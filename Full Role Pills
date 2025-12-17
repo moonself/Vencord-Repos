@@ -1,4 +1,4 @@
-.role_dfa8b6.pill_dfa8b6 {
+.dfa8b6b94cddb191-role.dfa8b6b94cddb191-pill {
     position: relative;
     border-color: transparent;
     @container style(--pill-border: true) {
@@ -8,7 +8,7 @@
     >:first-child {
         margin-right: 0 !important;
     }
-    .roleCircle__4f569::before {
+    ._4f569b8941af22d1-roleCircle::before {
         content: "";
         position: absolute;
         pointer-events: none;
@@ -17,19 +17,19 @@
         background-color: inherit;
         opacity: var(--pill-opacity);
     }
-    .twoColorGradient_e5de78::before,
-    .threeColorGradient_e5de78::before {
+    .e5de7811b2777bfa-twoColorGradient::before,
+    .e5de7811b2777bfa-threeColorGradient::before {
         content: "";
         background: inherit;
         background-size: 50% 100%;
         transition: background-position 0s;
     }
-    .roleRemoveButton_dfa8b6 {
+    .dfa8b6b94cddb191-roleRemoveButton {
         position: static;
         inset: 0;
         &:hover {
-            .twoColorGradient_e5de78::before,
-            .threeColorGradient_e5de78::before {
+            .e5de7811b2777bfa-twoColorGradient::before,
+            .e5de7811b2777bfa-threeColorGradient::before {
                 animation: seamlessGradient 5s linear infinite;
             }
         }
@@ -37,17 +37,17 @@
     > span {
         z-index: 2;
     }
-    .roleRemoveButtonCanRemove_dfa8b6 {
-        .roleRemoveIcon_dfa8b6 {
+    .dfa8b6b94cddb191-roleRemoveButtonCanRemove {
+        .dfa8b6b94cddb191-roleRemoveIcon {
             opacity: 0;
             left: 14px !important;
         }
-        &:hover .roleRemoveIcon_dfa8b6 {
+        &:hover .dfa8b6b94cddb191-roleRemoveIcon {
             opacity: 1;
         }
     }
 }
-.outer_c0bea0 {
+.c0bea05627c5dc35-outer {
     &.theme-light.images-light {
         --button-bg: rgb(0 0 0 / 0.1);
         --button-bg-hover: rgb(0 0 0 / 0.2);
@@ -58,10 +58,10 @@
         --button-bg-hover: rgba(255 255 255 / 0.2);
         --pill-border-color: rgb(255 255 255 / 0.15);
     }
-    .expandButton_fccfdf.pill_fccfdf,
+    .fccfdf3cfff21921-expandButton.fccfdf3cfff21921-pill,
     .vc-permviewer-role-button,
-    .collapseButton_fccfdf,
-    .button__7d7f7 {
+    .fccfdf3cfff21921-collapseButton,
+    ._7d7f78b99d0a7581-button {
         border-color: transparent;
         border-radius: 16px;
         background-color: var(--button-bg);
