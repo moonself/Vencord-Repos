@@ -1,0 +1,140 @@
+/* Compact title bar */
+.visual-refresh {
+    --vr-header-snippet-top: 0px;
+    --vr-header-snippet-server-padding: 16px;
+    --vr-header-snippet-space: 230px;
+    --vr-header-snippet-button-padding: 0;
+    --vr-header-snippet-winbuttons: flex;
+
+    div.f75fb00fb7356cbe-chat:not(.f75fb00fb7356cbe-threadSidebarOpen),
+    main._133bf5eea8e33a34-container,
+    div._01ae244280823725-chatLayerWrapper {
+        & section._9293f6b2fc12398a-container {
+            padding-right: var(--vr-header-snippet-space);
+        }
+    }
+
+    div._8a7fc664acf53af6-headerBar._8a7fc664acf53af6-overlay {
+        padding-right: var(--vr-header-snippet-space);
+
+        & ._65d410cfafd026bc-tab,
+        & ._1ac1c54c56e5807c-searchBar {
+            -webkit-app-region: no-drag;
+        }
+    }
+
+    div.bfe55a0aaaf62375-videoControls div._495084e7a0006942-subtitleContainer {
+        padding-right: calc(var(--vr-header-snippet-space) - 20px);
+
+        & ._9293f6b2fc12398a-toolbar {
+            -webkit-app-region: no-drag;
+        }
+    }
+
+    div._5e434347c823b592-page {
+        &:not(:has(> div.f75fb00fb7356cbe-chat)) {
+            anchor-name: --vr-header-snippet;
+        }
+
+        & > div.f75fb00fb7356cbe-chat {
+            anchor-name: --vr-header-snippet;
+        }
+    }
+
+    .c38106a3f0c3ca76-winButtons {
+        display: var(--vr-header-snippet-winbuttons);
+    }
+
+    div._5e434347c823b592-base {
+        grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+
+        &:has(div.c38106a3f0c3ca76-bar > div.c38106a3f0c3ca76-trailing ._496769951eb140fe-updateIconForeground) {
+            & div.f75fb00fb7356cbe-chat,
+            & div.f75fb00fb7356cbe-subtitleContainer,
+            & main._133bf5eea8e33a34-container,
+            & div._01ae244280823725-chatLayerWrapper {
+                & section._9293f6b2fc12398a-container {
+                    padding-right: calc(var(--vr-header-snippet-space) + 50px);
+                }
+            }
+
+            & div.bfe55a0aaaf62375-videoControls .bfe55a0aaaf62375-topControls div._9293f6b2fc12398a-toolbar {
+                margin-right: calc(var(--vr-header-snippet-space) + 30px) !important;
+            }
+        }
+
+        & > div._5e434347c823b592-content {
+            z-index: 0;
+        }
+
+        & > div.c38106a3f0c3ca76-bar {
+            position: absolute;
+            position-anchor: --vr-header-snippet;
+            top: var(--vr-header-snippet-top);
+            right: anchor(right);
+            width: anchor-size(width);
+            padding: 0 var(--vr-header-snippet-button-padding) 0 0;
+
+            & > .c38106a3f0c3ca76-title {
+                display: none;
+            }
+        }
+
+        &:has(> ._6e2b9359c6f84cfd-notice) {
+            & > div.c38106a3f0c3ca76-bar {
+                top: anchor(top);
+            }
+        }
+
+        & div.c38106a3f0c3ca76-trailing {
+            background: none;
+            border: none;
+            height: var(--custom-channel-header-height);
+        }
+
+        &:has(.f75fb00fb7356cbe-threadSidebarOpen.f75fb00fb7356cbe-threadSidebarFloating) > .c38106a3f0c3ca76-bar {
+            z-index: 0;
+        }
+    }
+
+    :not(:has(div._5e434347c823b592-page > div.f75fb00fb7356cbe-chat)) div._5e434347c823b592-base > div.c38106a3f0c3ca76-bar {
+        right: 0 !important;
+    }
+
+    ul[data-list-id="guildsnav"] > div.ef3116c2da186559-itemsContainer > div.dbd2630aec71879b-stack {
+        margin-top: var(--vr-header-snippet-server-padding);
+    }
+
+    section._8067953d83f4b8a8-headerBar,
+    section._0b56311ebc6682e2-header div._9293f6b2fc12398a-toolbar,
+    section.c791b281f2fedc32-header div._9293f6b2fc12398a-toolbar,
+    section.c791b281f2fedc32-header div._9293f6b2fc12398a-children,
+    :not(.bfe55a0aaaf62375-videoControls) div._6ec1a06139ec3b27-topic {
+        -webkit-app-region: no-drag;
+    }
+
+    ._6db1d32c47b6ad72-shop section.showToolbar__9293f {
+        padding-right: var(--vr-header-snippet-space);
+
+        ._8067953d83f4b8a8-balanceWidgetMenu {
+            margin-right: 0;
+        }
+    }
+
+    .div.bfe55a0aaaf62375-videoControls .bfe55a0aaaf62375-topControls {
+        z-index: -1;
+    }
+
+    ._656be05658eed04d-profileThemedContainer ._34940b51cd19b69f-topRow {
+        align-items: end;
+        padding-bottom: 0;
+
+        & ._34940b51cd19b69f-closeAction {
+            -webkit-app-region: no-drag;
+        }
+
+        & ._34940b51cd19b69f-memberNameContainer {
+            padding-bottom: 12px;
+        }
+    }
+}
