@@ -67,7 +67,7 @@
             transition: opacity var(--nametag-fade-speed);
         }
         &:hover ._4bbc6dc06e75ad52-container { opacity: 1; }
-    /* Support for MemberCount plugin */ /*
+    /* Support for MemberCount plugin */
         .vc-membercount-widget {
             gap: 0;
             > div {
@@ -114,6 +114,6 @@
         &:hover .vc-membercount-widget {
             > div { transform: translateX(0%); }
             &::after { transform: translateX(-46px); }
-        } */
+        }
     }
 }
