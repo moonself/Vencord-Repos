@@ -4,18 +4,18 @@
         pointer-events: none;
         margin-left: -112px;
     }
-    button:not([aria-label="User Settings"]) {
+    button:not(:nth-child(5)) {
         opacity: 0;
         pointer-events: none;
         transform: translateX(10px);
         transition: all 0.3s ease;
     }
-    button[aria-label="User Settings"] {
+    button:nth-child(5) {
         opacity: 1;
         pointer-events: all;
         transform: none;
     }
-    &:hover button:not([aria-label="User Settings"]) {
+    &:hover button:not(:nth-child(5)) {
         opacity: 1;
         pointer-events: all;
         transform: none;
