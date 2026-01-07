@@ -1,6 +1,6 @@
 ._496769951eb140fe-search {
     &:not(:focus-within) {
-        ._974928fe84ca9647-searchBar {
+        .c322aadb96ff59c9-searchBar {
             border: 1px solid transparent;
             background-color: transparent;
             margin-left: -6px;
@@ -30,7 +30,7 @@
             color: var(--icon-tertiary);
         }
     }
-    ._974928fe84ca9647-icon, .DraftEditor-root {
+    .c322aadb96ff59c9-icon, .DraftEditor-root {
         cursor: auto;
     }
     &:focus-within {
@@ -38,7 +38,7 @@
             color: var(--icon-primary);
             cursor: auto;
         }
-        ._974928fe84ca9647-searchBar {
+        .c322aadb96ff59c9-searchBar {
             border-color: var(--border-subtle);
             background-color: var(--bg-base-tertiary);
             width: 244px;
