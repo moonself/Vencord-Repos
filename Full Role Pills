@@ -1,12 +1,9 @@
-.dfa8b6b94cddb191-role.dfa8b6b94cddb191-pill {
+.af3987915705da59-roleTag > .af3987915705da59-role {
     position: relative;
     border-color: transparent;
     @container style(--pill-border: true) {
         border-color: var(--pill-border-color);
         border-radius: var(--pill-roundness);
-    }
-    >:first-child {
-        margin-right: 0 !important;
     }
     ._4f569b8941af22d1-roleCircle::before {
         content: "";
@@ -24,46 +21,41 @@
         background-size: 50% 100%;
         transition: background-position 0s;
     }
-    .dfa8b6b94cddb191-roleRemoveButton {
-        position: static;
-        inset: 0;
+    .e5de7811b2777bfa-twoColorGradient:hover::before,
+    .e5de7811b2777bfa-threeColorGradient:hover::before {
+        animation: seamlessGradient 5s linear infinite;
+    }
+    .af3987915705da59-removeButton {
+        position: relative;
+        left: -100%;
+        transform: translateX(21px);
+        margin-left: -14px;
+        opacity: 0;
         &:hover {
-            .e5de7811b2777bfa-twoColorGradient::before,
-            .e5de7811b2777bfa-threeColorGradient::before {
-                animation: seamlessGradient 5s linear infinite;
-            }
-        }
-    }
-    > span {
-        z-index: 2;
-    }
-    .dfa8b6b94cddb191-roleRemoveButtonCanRemove {
-        .dfa8b6b94cddb191-roleRemoveIcon {
-            opacity: 0;
-            left: 14px !important;
-        }
-        &:hover .dfa8b6b94cddb191-roleRemoveIcon {
             opacity: 1;
         }
     }
+    > .af3987915705da59-roleName, .ee71ee16cc02184d-roleIcon {
+        position: relative;
+        z-index: 2;
+    }
 }
+
 .c0bea05627c5dc35-outer {
     &.theme-light.images-light {
         --button-bg: rgb(0 0 0 / 0.1);
         --button-bg-hover: rgb(0 0 0 / 0.2);
-        --pill-border-color: rgb(0 0 0 / 0.15);
+        --pill-border-color: rgb(0 0 0 / 0.2);
     }
     &.theme-dark.images-dark {
         --button-bg: rgb(255 255 255 / 0.1);
         --button-bg-hover: rgba(255 255 255 / 0.2);
-        --pill-border-color: rgb(255 255 255 / 0.15);
+        --pill-border-color: rgb(255 255 255 / 0.3);
     }
-    .fccfdf3cfff21921-expandButton.fccfdf3cfff21921-pill,
-    .vc-permviewer-role-button,
-    .fccfdf3cfff21921-collapseButton,
-    ._7d7f78b99d0a7581-button {
+    .af3987915705da59-pillButton,
+    .af3987915705da59-addButton {
         border-color: transparent;
-        border-radius: 16px;
+        border-radius: var(--pill-roundness);
         background-color: var(--button-bg);
         &:hover {
             background-color: var(--button-bg-hover);
