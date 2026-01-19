@@ -1,10 +1,6 @@
 .af3987915705da59-roleTag > .af3987915705da59-role {
     position: relative;
     border-color: transparent;
-    @container style(--pill-border: true) {
-        border-color: var(--pill-border-color);
-        border-radius: var(--pill-roundness);
-    }
     ._4f569b8941af22d1-roleCircle::before {
         content: "";
         position: absolute;
@@ -13,6 +9,18 @@
         border-radius: var(--pill-roundness);
         background-color: inherit;
         opacity: var(--pill-opacity);
+    }
+    @container style(--pill-border: true) {
+    ._4f569b8941af22d1-roleCircle::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 1px solid grey;
+        border-radius: var(--pill-roundness);
+        pointer-events: none;
+        mix-blend-mode: difference;
+        opacity: 0.3;
+    }
     }
     .e5de7811b2777bfa-twoColorGradient::before,
     .e5de7811b2777bfa-threeColorGradient::before {
@@ -31,6 +39,8 @@
         transform: translateX(21px);
         margin-left: -14px;
         opacity: 0;
+        color: grey;
+        mix-blend-mode: difference;
         &:hover {
             opacity: 1;
         }
@@ -45,12 +55,10 @@
     &.theme-light.images-light {
         --button-bg: rgb(0 0 0 / 0.1);
         --button-bg-hover: rgb(0 0 0 / 0.2);
-        --pill-border-color: rgb(0 0 0 / 0.2);
     }
     &.theme-dark.images-dark {
         --button-bg: rgb(255 255 255 / 0.1);
         --button-bg-hover: rgba(255 255 255 / 0.2);
-        --pill-border-color: rgb(255 255 255 / 0.3);
     }
     .af3987915705da59-pillButton,
     .af3987915705da59-addButton {
