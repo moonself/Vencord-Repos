@@ -1,29 +1,29 @@
-.f75fb00fb7356cbe-content, .c8ffbb79449f399c-container {
+.content_f75fb0, .container_c8ffbb {
     border: none !important;
     z-index: 1 !important;
-    .c8ffbb79449f399c-membersWrap {
+    .membersWrap_c8ffbb {
         position: relative;
         justify-content: unset;
         min-width: unset;
         width: 60px;
         right: 0;
         border: none !important;
-        .c8ffbb79449f399c-members {
+        .members_c8ffbb {
             box-shadow: inset 1px 0 0 0 var(--border-subtle);
             transition: transform var(--hover-animation-speed);
             &:hover { transform: translateX(-196px); }
         }
-        ._91a9d7f7e5248a56-content { margin-left: 3px; }
+        .content__91a9d { margin-left: 3px; }
     /* Rolegroup seperator */
-        .c8ffbb79449f399c-membersGroup {
+        .membersGroup_c8ffbb {
             margin-left: 3px;
             cursor: default;
             transform: translateX(46px);
             transition: transform var(--hover-animation-speed);
             overflow: visible;
         }
-        &:hover .c8ffbb79449f399c-membersGroup { transform: translateX(-3px); }
-        .c8ffbb79449f399c-membersGroup::after {
+        &:hover .membersGroup_c8ffbb { transform: translateX(-3px); }
+        .membersGroup_c8ffbb::after {
             content:"";
             width: 30px;
             height: 3px;
@@ -35,7 +35,7 @@
             margin-left: 2px;
         }
     /* Default icon */
-        ._0f2e83213c878a13-container {
+        .container__0f2e8 {
             margin-left: 15px;
             cursor: default;
             transform: translateX(45px);
@@ -53,21 +53,21 @@
                 mask-size: contain;
             }
         }
-        &:hover ._0f2e83213c878a13-container { transform: translateX(-3px); }
+        &:hover .container__0f2e8 { transform: translateX(-3px); }
         /* Gaming icon */
-        ._0f2e83213c878a13-container:has(svg > path[d^="M20.97"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
+        .container__0f2e8:has(svg > path[d^="M20.97"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
         /* Listening icon */
-        ._0f2e83213c878a13-container:has(svg > path[d^="M8.65"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
+        .container__0f2e8:has(svg > path[d^="M8.65"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
         /* Watching / Streaming icon */
-        ._0f2e83213c878a13-container:has(svg > path[d^="M4 3a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
+        .container__0f2e8:has(svg > path[d^="M4 3a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
         /* Recording icon */
-        ._0f2e83213c878a13-container:has(svg > path[d^="M8 20"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
+        .container__0f2e8:has(svg > path[d^="M8 20"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
     /* Nameplate Fade In */
-        ._4bbc6dc06e75ad52-container {
+        .container__4bbc6 {
             opacity: 0;
             transition: opacity var(--nametag-fade-speed);
         }
-        &:hover ._4bbc6dc06e75ad52-container { opacity: 1; }
+        &:hover .container__4bbc6 { opacity: 1; }
     /* Support for MemberCount plugin */
         .vc-membercount-widget {
             gap: 0;
