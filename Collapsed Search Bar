@@ -1,6 +1,6 @@
-._496769951eb140fe-search {
+.search__49676 {
     &:not(:focus-within) {
-        .c322aadb96ff59c9-searchBar {
+        .searchBar_c322aa {
             border: 1px solid transparent;
             background-color: transparent;
             margin-left: -6px;
@@ -16,29 +16,29 @@
             }
         }
     }
-    ._0c4c409e1915aba4-iconContainer {
+    .iconContainer__0c4c4 {
         width: 20px !important;
         height: 20px !important;
         position: absolute;
         margin-right: 4px !important;
         right: 0;
         cursor: pointer;
-        ._0c4c409e1915aba4-icon {
+        .icon__0c4c4 {
             color: var(--icon-tertiary);
         }
         &:hover * {
             color: var(--icon-tertiary);
         }
     }
-    .c322aadb96ff59c9-icon, .DraftEditor-root {
+    .icon_c322aa, .DraftEditor-root {
         cursor: auto;
     }
     &:focus-within {
-        ._0c4c409e1915aba4-iconContainer * {
+        .iconContainer__0c4c4 * {
             color: var(--icon-primary);
             cursor: auto;
         }
-        .c322aadb96ff59c9-searchBar {
+        .searchBar_c322aa {
             border-color: var(--border-subtle);
             background-color: var(--bg-base-tertiary);
             width: 244px;
