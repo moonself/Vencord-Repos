@@ -1,5 +1,5 @@
 /* Profile Popout Actions Hover */
-.da589062f0c96515-wrapper {
+.wrapper_da5890 {
     &:not(:hover) {
         pointer-events: none;
     }
