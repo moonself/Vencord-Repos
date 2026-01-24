@@ -1,5 +1,5 @@
 /* Chat Button Hover */
-._740174f3d6a2c8fe-buttons {
+.buttons__74017 {
     gap: 0 !important;
     pointer-events: none;
 &:hover {
@@ -11,12 +11,12 @@
     pointer-events: none;
     transform: translateX(10px);
     transition: all 0.3s ease;
-._740174f3d6a2c8fe-buttons:hover & {
+.buttons__74017:hover & {
     opacity: 1;
     pointer-events: all;
     transform: none;
   }
-&:has(._04eede68d145ae81-emojiButton) {
+&:has(.emojiButton__04eed) {
     opacity: 1 !important;
     pointer-events: all !important;
     transform: none !important;
