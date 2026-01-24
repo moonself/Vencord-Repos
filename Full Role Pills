@@ -1,7 +1,7 @@
-.af3987915705da59-roleTag > .af3987915705da59-role {
+.roleTag_af3987 > .role_af3987 {
     position: relative;
     border-color: transparent;
-    ._4f569b8941af22d1-roleCircle::before {
+    .roleCircle__4f569::before {
         content: "";
         position: absolute;
         pointer-events: none;
@@ -11,7 +11,7 @@
         opacity: var(--pill-opacity);
     }
     @container style(--pill-border: true) {
-    ._4f569b8941af22d1-roleCircle::after {
+    .roleCircle__4f569::after {
         content: "";
         position: absolute;
         inset: 0;
@@ -22,18 +22,18 @@
         opacity: 0.3;
     }
     }
-    .e5de7811b2777bfa-twoColorGradient::before,
-    .e5de7811b2777bfa-threeColorGradient::before {
+    .twoColorGradient_e5de78::before,
+    .threeColorGradient_e5de78::before {
         content: "";
         background: inherit;
         background-size: 50% 100%;
         transition: background-position 0s;
     }
-    .e5de7811b2777bfa-twoColorGradient:hover::before,
-    .e5de7811b2777bfa-threeColorGradient:hover::before {
+    .twoColorGradient_e5de78:hover::before,
+    .threeColorGradient_e5de78:hover::before {
         animation: seamlessGradient 5s linear infinite;
     }
-    .af3987915705da59-removeButton {
+    .removeButton_af3987 {
         position: relative;
         left: -100%;
         transform: translateX(21px);
@@ -45,13 +45,13 @@
             opacity: 1;
         }
     }
-    > .af3987915705da59-roleName, .ee71ee16cc02184d-roleIcon {
+    > .roleName_af3987, .roleIcon_ee71ee {
         position: relative;
         z-index: 2;
     }
 }
 
-.c0bea05627c5dc35-outer {
+.outer_c0bea0 {
     &.theme-light.images-light {
         --button-bg: rgb(0 0 0 / 0.1);
         --button-bg-hover: rgb(0 0 0 / 0.2);
@@ -60,8 +60,8 @@
         --button-bg: rgb(255 255 255 / 0.1);
         --button-bg-hover: rgba(255 255 255 / 0.2);
     }
-    .af3987915705da59-pillButton,
-    .af3987915705da59-addButton {
+    .pillButton_af3987,
+    .addButton_af3987 {
         border-color: transparent;
         border-radius: var(--pill-roundness);
         background-color: var(--button-bg);
