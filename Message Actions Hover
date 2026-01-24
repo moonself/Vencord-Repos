@@ -1,6 +1,6 @@
 /* Message Actions Hover */
-._5126c0cd07f243a0-buttonsInner [aria-label]:not([aria-label="More"],[aria-label="Delete"]),
-._5126c0cd07f243a0-buttonsInner .f84418acfdbdfe54-separator {
+.buttonsInner__5126c [aria-label]:not([aria-label="More"],[aria-label="Delete"]),
+.buttonsInner__5126c .separator_f84418 {
     pointer-events: none;
     opacity: 0;
     position: relative;
@@ -9,8 +9,8 @@
     z-index: 1;
 }
 
-._5126c0cd07f243a0-buttonsInner:hover [aria-label]:not([aria-label="More"],[aria-label="Delete"]),
-._5126c0cd07f243a0-buttonsInner:hover .f84418acfdbdfe54-separator {
+.buttonsInner__5126c:hover [aria-label]:not([aria-label="More"],[aria-label="Delete"]),
+.buttonsInner__5126c:hover .separator_f84418 {
     pointer-events: all;
     opacity: 1;
     position: relative;
