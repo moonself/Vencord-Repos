@@ -45,9 +45,14 @@
             opacity: 1;
         }
     }
-    > .roleName_af3987, .roleIcon_ee71ee {
-        position: relative;
+    .roleName_af3987 {
         z-index: 2;
+    }
+    .roleIcon_ee71ee {
+        position: relative;
+        display: flex;
+        width: 16px;
+        height: 16px;
     }
 }
 
@@ -61,7 +66,8 @@
         --button-bg-hover: rgba(255 255 255 / 0.2);
     }
     .pillButton_af3987,
-    .addButton_af3987 {
+    .addButton_af3987,
+    .vc-permviewer-role-button {
         border-color: transparent;
         border-radius: var(--pill-roundness);
         background-color: var(--button-bg);
