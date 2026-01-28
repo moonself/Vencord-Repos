@@ -58,10 +58,12 @@
         .container__0f2e8:has(svg > path[d^="M20.97"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
         /* Listening icon */
         .container__0f2e8:has(svg > path[d^="M8.65"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
-        /* Watching / Streaming icon */
-        .container__0f2e8:has(svg > path[d^="M4 3a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
+        /* Watching icon */
+        .container__0f2e8:has(svg > path[d^="M4 3a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Watching.svg"); }
         /* Recording icon */
         .container__0f2e8:has(svg > path[d^="M8 20"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
+        /* Streaming icon */
+        .container__0f2e8:has(svg > path[d^="M2 5a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
     /* Nameplate Fade In */
         .container__4bbc6 {
             opacity: 0;
