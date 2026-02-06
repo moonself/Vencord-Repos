@@ -1,11 +1,14 @@
 /* Message Actions Hover */
+.buttonsInner__5126c {
+    overflow: hidden !important;
+}
 .buttonsInner__5126c [aria-label]:not([aria-label="More"],[aria-label="Delete"]),
 .buttonsInner__5126c .separator_f84418 {
     pointer-events: none;
     opacity: 0;
     position: relative;
     margin-left: -34px !important;
-    transition: margin-left 0.3s ease, opacity 0.1s ease;
+    transition: margin-left 0.3s ease, opacity 0.3s ease;
     z-index: 1;
 }
 
