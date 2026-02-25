@@ -23,6 +23,6 @@
   }
 }
 /* Hidden Buttons */
-button[aria-label="Apps"], [aria-label="Send a gift"] { 
+.app-launcher-entrypoint, [aria-label="Give a Gift"] { 
     display: none;
 }
