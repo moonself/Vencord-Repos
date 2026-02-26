@@ -23,6 +23,6 @@
   }
 }
 /* Hidden Buttons */
-.app-launcher-entrypoint, [aria-label="Give a Gift"] { 
+.app-launcher-entrypoint, [aria-label="Send a gift"] { 
     display: none;
 }
