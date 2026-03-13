@@ -24,10 +24,10 @@
         right: 0;
         cursor: pointer;
         .icon__0c4c4 {
-            color: var(--icon-tertiary);
+            color: var(--icon-muted);
         }
         &:hover * {
-            color: var(--icon-tertiary);
+            color: var(--icon-subtle);
         }
     }
     .icon_c322aa, .DraftEditor-root {
