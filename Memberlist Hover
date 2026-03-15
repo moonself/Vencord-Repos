@@ -64,6 +64,8 @@
         .container__0f2e8:has(svg > path[d^="M8 20"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
         /* Streaming icon */
         .container__0f2e8:has(svg > path[d^="M2 5a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
+        /*Activity icon */
+        .container__0f2e8:has(svg > path[d^="M2.06"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Activities.svg"); }
     /* Nameplate Fade In */
         .container__4bbc6 {
             opacity: 0;
