@@ -67,11 +67,11 @@
         /*Activity icon */
         .container__0f2e8:has(svg > path[d^="M2.06"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Activities.svg"); }
     /* Nameplate Fade In */
-        .container__4bbc6 {
+        .container_df39b2 {
             opacity: 0;
             transition: opacity var(--nametag-fade-speed);
         }
-        &:hover .container__4bbc6 { opacity: 1; }
+        &:hover .container_df39b2 { opacity: 1; }
     /* Support for MemberCount plugin */
         .vc-membercount-widget {
             gap: 0;
