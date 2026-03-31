@@ -15,6 +15,9 @@
             margin: auto;
             margin-right: 2px;
         }
+        .lineClamp1__4bd52 {
+            display: inline-flex;
+        }
     }
 }
 .repliedMessage_c19a55 {
