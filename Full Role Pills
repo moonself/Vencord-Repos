@@ -9,17 +9,19 @@
         border-radius: var(--pill-roundness);
         background-color: inherit;
         opacity: var(--pill-opacity);
+        z-index: 0 !important;
     }
     @container style(--pill-border: true) {
     .roleCircle__4f569::after {
         content: "";
         position: absolute;
+        pointer-events: none;
         inset: 0;
         border: 1px solid grey;
         border-radius: var(--pill-roundness);
-        pointer-events: none;
         mix-blend-mode: difference;
         opacity: 0.3;
+        z-index: 1;
     }
     }
     .twoColorGradient_e5de78::before,
