@@ -1,5 +1,5 @@
 .search__49676 {
-    min-width: unset;
+    width: unset !important;
     &:not(:focus-within) {
         .searchBar_c322aa {
             border: 1px solid transparent;
@@ -47,9 +47,4 @@
             transition: width 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
         }
     }
-}
-.title_f75fb0 .toolbar__9293f {
-    flex-shrink: 0;
-    flex-wrap: nowrap;
-    align-items: center;
 }
