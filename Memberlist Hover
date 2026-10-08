@@ -13,6 +13,39 @@
             transition: transform var(--hover-animation-speed);
             &:hover { transform: translateX(-196px); }
         }
+        &:hover .inviteToGroupButton_c8ffbb {
+            > button {
+                background-color: var(--control-secondary-background-default);
+                border-color: var(--control-secondary-border-default);
+                width: 100% !important;
+                transition: width var(--hover-animation-speed), background-color var(--hover-animation-speed), border-color var(--hover-animation-speed);
+            }
+            .buttonChildren_a22cb0 {
+                margin-left: 0px;
+            }
+            span {
+                opacity: 1;
+                transition: opacity 1s;
+            }
+        }
+        .inviteToGroupButton_c8ffbb {
+            position: relative;
+            padding-inline: 0;
+            padding-left: 8px;
+            > button {
+                background-color: transparent;
+                border-color: transparent;
+                transition: width var(--hover-animation-speed);
+            }
+            .buttonChildren_a22cb0 {
+                margin-left: -64px;
+                transition: margin-left var(--hover-animation-speed) ease;
+            }
+            span {
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+        }
         .content__91a9d { margin-left: 3px; }
     /* Rolegroup seperator */
         .membersGroup_c8ffbb {
