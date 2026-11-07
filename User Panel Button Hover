@@ -1,5 +1,5 @@
 /* User Panel Button Hover */
-.buttons__37e49 {
+.buttons_g6VwXp {
     &:not(:hover) {
         pointer-events: none;
         margin-left: -112px;
