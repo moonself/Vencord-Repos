@@ -1,26 +1,26 @@
-.content_f75fb0, .container_c8ffbb {
+.content_z_gUBg, .container_86es0b {
     border: none !important;
     z-index: 1 !important;
-    .membersWrap_c8ffbb {
+    .membersWrap_86es0b {
         position: relative;
         justify-content: unset;
         min-width: unset;
         width: 60px;
         right: 0;
         border: none !important;
-        .members_c8ffbb {
+        .members_86es0b {
             box-shadow: inset 1px 0 0 0 var(--border-subtle);
             transition: transform var(--hover-animation-speed);
             &:hover { transform: translateX(-196px); }
         }
-        &:hover .inviteToGroupButton_c8ffbb {
+        &:hover .inviteToGroupButton_86es0b {
             > button {
                 background-color: var(--control-secondary-background-default);
                 border-color: var(--control-secondary-border-default);
                 width: 100% !important;
                 transition: width var(--hover-animation-speed), background-color var(--hover-animation-speed), border-color var(--hover-animation-speed);
             }
-            .buttonChildren_a22cb0 {
+            .buttonChildren_F7qvhY {
                 margin-left: 0px;
             }
             span {
@@ -28,7 +28,7 @@
                 transition: opacity 1s;
             }
         }
-        .inviteToGroupButton_c8ffbb {
+        .inviteToGroupButton_86es0b {
             position: relative;
             padding-inline: 0;
             padding-left: 8px;
@@ -37,7 +37,7 @@
                 border-color: transparent;
                 transition: width var(--hover-animation-speed);
             }
-            .buttonChildren_a22cb0 {
+            .buttonChildren_F7qvhY {
                 margin-left: -64px;
                 transition: margin-left var(--hover-animation-speed) ease;
             }
@@ -46,17 +46,17 @@
                 transition: opacity 0.3s;
             }
         }
-        .content__91a9d { margin-left: 3px; }
+        .content_J1Adu_ { margin-left: 3px; }
     /* Rolegroup seperator */
-        .membersGroup_c8ffbb {
+        .membersGroup_86es0b {
             margin-left: 3px;
             cursor: default;
             transform: translateX(46px);
             transition: transform var(--hover-animation-speed);
             overflow: visible;
         }
-        &:hover .membersGroup_c8ffbb { transform: translateX(-3px); }
-        .membersGroup_c8ffbb::after {
+        &:hover .membersGroup_86es0b { transform: translateX(-3px); }
+        .membersGroup_86es0b::after {
             content:"";
             width: 30px;
             height: 3px;
@@ -68,7 +68,7 @@
             margin-left: 2px;
         }
     /* Default icon */
-        .container__0f2e8 {
+        .container_g7esM5 {
             margin-left: 15px;
             cursor: default;
             transform: translateX(45px);
@@ -86,25 +86,25 @@
                 mask-size: contain;
             }
         }
-        &:hover .container__0f2e8 { transform: translateX(-3px); }
+        &:hover .container_g7esM5 { transform: translateX(-3px); }
         /* Gaming icon */
-        .container__0f2e8:has(svg > path[d^="M20.97"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
+        .container_g7esM5:has(svg > path[d^="M20.97"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Gaming.svg"); }
         /* Listening icon */
-        .container__0f2e8:has(svg > path[d^="M8.65"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
+        .container_g7esM5:has(svg > path[d^="M8.65"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Listening.svg"); }
         /* Watching icon */
-        .container__0f2e8:has(svg > path[d^="M4 3a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Watching.svg"); }
+        .container_g7esM5:has(svg > path[d^="M4 3a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Watching.svg"); }
         /* Recording icon */
-        .container__0f2e8:has(svg > path[d^="M8 20"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
+        .container_g7esM5:has(svg > path[d^="M8 20"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Record.svg"); }
         /* Streaming icon */
-        .container__0f2e8:has(svg > path[d^="M2 5a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
+        .container_g7esM5:has(svg > path[d^="M2 5a3"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Streaming.svg"); }
         /*Activity icon */
-        .container__0f2e8:has(svg > path[d^="M2.06"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Activities.svg"); }
+        .container_g7esM5:has(svg > path[d^="M2.06"]) { --icon-mask: url("https://raw.githubusercontent.com/moonself/Settings-Glamour/refs/heads/main/SVGs/Memberlist%20Hover/Activities.svg"); }
     /* Nameplate Fade In */
-        .container_df39b2 {
+        .container_AFi54G {
             opacity: 0;
             transition: opacity var(--nametag-fade-speed);
         }
-        &:hover .container_df39b2 { opacity: 1; }
+        &:hover .container_AFi54G { opacity: 1; }
     /* Support for MemberCount plugin */
         .vc-membercount-widget {
             gap: 0;
