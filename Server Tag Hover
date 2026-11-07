@@ -1,5 +1,5 @@
-.message__5126c {
-    .chipletContainerInner__10651 {
+.message_SY_P2T {
+    .chipletContainerInner_k8jyN7 {
         display: inline-flex;
         height: 16px;
         max-width: 14px !important;
@@ -11,17 +11,17 @@
         &:not(:hover) {
             transition-delay: var(--collapse-delay);
         }
-        .badge__10651 {
+        .badge_k8jyN7 {
             margin: auto;
             margin-right: 2px;
         }
-        .lineClamp1__4bd52 {
+        .lineClamp1_MMUIw6 {
             display: inline-flex;
         }
     }
 }
-.repliedMessage_c19a55 {
-    .chipletContainerInner__10651 {
+.repliedMessage_2i8Bfm {
+    .chipletContainerInner_k8jyN7 {
         max-width: 12px !important;
     }
 }
