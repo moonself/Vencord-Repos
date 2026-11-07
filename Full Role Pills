@@ -1,7 +1,7 @@
-.roleTag_af3987 > .role_af3987 {
+.roleTag_xL50-d > .role_xL50-d {
     position: relative;
     border-color: transparent;
-    .roleCircle__4f569::before {
+    .roleCircle_7RsUnm::before {
         content: "";
         position: absolute;
         pointer-events: none;
@@ -12,7 +12,7 @@
         z-index: 0 !important;
     }
     @container style(--pill-border: true) {
-    .roleCircle__4f569::after {
+    .roleCircle_7RsUnm::after {
         content: "";
         position: absolute;
         pointer-events: none;
@@ -24,18 +24,18 @@
         z-index: 1;
     }
     }
-    .twoColorGradient_e5de78::before,
-    .threeColorGradient_e5de78::before {
+    .twoColorGradient_HG2xvK::before,
+    .threeColorGradient_HG2xvK::before {
         content: "";
         background: inherit;
         background-size: 50% 100%;
         transition: background-position 0s;
     }
-    .twoColorGradient_e5de78:hover::before,
-    .threeColorGradient_e5de78:hover::before {
+    .twoColorGradient_HG2xvK:hover::before,
+    .threeColorGradient_HG2xvK:hover::before {
         animation: seamlessGradient 5s linear infinite;
     }
-    .removeButton_af3987 {
+    .removeButton_xL50-d {
         position: relative;
         left: -100%;
         transform: translateX(21px);
@@ -47,10 +47,10 @@
             opacity: 1;
         }
     }
-    .roleName_af3987 {
+    .roleName_xL50-d {
         z-index: 2;
     }
-    .roleIcon_ee71ee {
+    .roleIcon_3jSSrV {
         position: relative;
         display: flex;
         width: 16px;
@@ -58,7 +58,7 @@
     }
 }
 
-.outer_c0bea0 {
+.outer_P1YEjQ {
     &.theme-light.images-light {
         --button-bg: rgb(0 0 0 / 0.1);
         --button-bg-hover: rgb(0 0 0 / 0.2);
@@ -67,8 +67,8 @@
         --button-bg: rgb(255 255 255 / 0.1);
         --button-bg-hover: rgba(255 255 255 / 0.2);
     }
-    .pillButton_af3987,
-    .addButton_af3987,
+    .pillButton_xL50-d,
+    .addButton_xL50-d,
     .vc-permviewer-role-button {
         border-color: transparent;
         border-radius: var(--pill-roundness);
